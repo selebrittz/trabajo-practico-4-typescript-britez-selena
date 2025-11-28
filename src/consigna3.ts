@@ -10,7 +10,7 @@ function logMessage(level: LogLevel, message: string) {
 
 logMessage(
   LogLevel.Info,
-  "<- Este número indica el indice del objeto que viene de Enum, por ende el siguiente será 1"
+  "<- Este número indica el indice del objeto que viene de Enum"
 );
 
 // Esta función recibe los niveles del enum, como realizamos un console.log no es necesario poner un return
